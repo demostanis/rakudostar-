@@ -108,7 +108,7 @@ sub nope {
 	return !yes;
 }
 
-my $version = "2021.03";
+my $version = "2021.04";
 if(open(my $versionf, '<', 'version')) {
 	chomp($version = <$versionf>);
 }
