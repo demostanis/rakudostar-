@@ -1,0 +1,31 @@
+Rakudo Star+
+
+Please note: while it might be usable, it is not currently recommended
+to use it as of now.
+
+Rakudo Star+ as an experimental alternative to Rakudo Star,
+able to install MoarVM, NQP, Rakudo and a few modules (the same
+as Rakudo Star), fetching them through git or HTTP, with optional
+GPG verification, and parallel installation of modules, written
+in Perl.
+
+It suffers from a few issues, the main one being that the parallel
+installation of modules might try to compile one before its dependency,
+leading to (unproblematic) errors.
+
+You can try it on your computer (or in a Docker container, for testing purposes):
+	git clone https://github.com/demostanis/rakudostar+
+	cpanm --force Parallel::ForkManager \
+		LWP::UserAgent LWP::Protocol::https \
+		Archive::Tar Getopt::Std GnuPG::Interface \
+		Time::Duration IPC::Run
+	./r\*+.pl -h
+-- OR --
+	docker build -t rakudostarplus .
+	docker run -it rakudostarplus
+
+A PKGBUILD is expected to be created soon.
+
+Copyright 2021 demostanis worlds,
+licensed under WTFPL.
+

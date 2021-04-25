@@ -1,0 +1,3 @@
+MoarVM = github.com/moarvm/moarvm
+NQP    = github.com/raku/nqp
+Rakudo = github.com/rakudo/rakudo

@@ -1,0 +1,82 @@
+# Modules to install along with Rakudo. Their
+# dependencies must be included as they are not
+# resolved. A branch can be specified if it is not
+# the default. Supported protocols are 
+# and .
+# Syntax: <module name> <url> <branch?>
+
+zef                     github.com/ugexe/zef                    v0.11.5
+Perl6-TypeGraph         github.com/antoniogamiz/Perl6-TypeGraph v2.1.3
+rakudoc                 github.com/Raku/doc
+Log                     git.tyil.nl/raku/Log                    v0.3.1
+Terminal-ANSIColor      github.com/tadzik/Terminal-ANSIColor
+Log-Colored             git.tyil.nl/raku/Log::Colored           v0.1.1
+Hash-Merge              github.com/scriptkitties/p6-Hash-Merge  v2.0.0
+IO-Path-XDG             git.tyil.nl/raku/IO::Path::XDG          v0.2.0
+Glob-IO                 github.com/zostay/raku-IO-Glob
+Config                  git.tyil.nl/raku/Config
+Crane                   github.com/atweiden/crane
+Config-TOML             github.com/atweiden/config-toml
+Config-Parser-toml      git.tyil.nl/raku/Config::Parser::toml   v1.0.2
+MIME-Base64             github.com/raku-community-modules/MIME-Base64
+YAMLish                 github.com/Leont/yamlish
+Config-Parser-yaml      git.tyil.nl/raku/Config::Parser::yaml   v1.0.0
+JSON-Fast               github.com/timo/json_fast
+Config-Parser-json      github.com/arjancwidlak/p6-Config-Parser-json
+File-Directory-Tree     github.com/labster/p6-file-directory-tree
+File-Temp               github.com/rbt/raku-File-Temp
+NativeCall-TypeDiag     github.com/Skarsnik/nativecall-typediag
+NativeHelpers-Blob      github.com/salortiz/NativeHelpers-Blob
+NativeLibs              github.com/salortiz/NativeLibs
+DBIish                  github.com/raku-community-modules/DBIish
+URI                     github.com/raku-community-modules/uri
+JSON-Name               github.com/jonathanstowe/JSON-Name
+JSON-Unmarshal          github.com/tadzik/JSON-Unmarshal
+JSON-Marshal            github.com/jonathanstowe/JSON-Marshal
+JSON-Class              github.com/jonathanstowe/JSON-Class
+META6                   github.com/jonathanstowe/META6
+License-SPDX            github.com/jonathanstowe/License-SPDX
+Test-META               github.com/jonathanstowe/Test-META
+XML-Writer              github.com/masak/xml-writer
+SVG                     github.com/moritz/svg
+SVG-Plot                github.com/moritz/svg-plot
+OO-Monitors             github.com/jnthn/oo-monitors
+Test-Mock               github.com/jnthn/test-mock
+Grammar-Profiler-Simple github.com/perlpilot/Grammar-Profiler-Simple
+Grammar-Debugger        github.com/jnthn/grammar-debugger
+JSON-Tiny               github.com/moritz/json
+OpenSSL                 github.com/sergot/openssl
+IO-Socket-SSL           github.com/sergot/io-socket-ssl
+LWP-Simple              github.com/raku-community-modules/raku-lwp-simple
+Digest-MD5              github.com/cosimo/perl6-digest-md5
+HTTP-Status             github.com/supernovus/perl6-http-status
+Template-Mustache       github.com/softmoth/p6-Template-Mustache
+PSGI                    github.com/supernovus/perl6-psgi
+HTTP-Easy               github.com/supernovus/perl6-http-easy
+Template-Mojo           github.com/tadzik/Template-Mojo
+Test-When               github.com/raku-community-modules/perl6-Test-When
+Digest                  github.com/grondilu/libdigest-perl6
+Testo                   github.com/raku-community-modules/perl6-Testo
+Temp-Path               github.com/ufobat/perl6-Temp-Path
+Pod-Load                github.com/JJ/p6-pod-load
+Test-Output             github.com/raku-community-modules/perl6-Test-Output
+DateTime-Parse          github.com/sergot/datetime-parse
+Encode                  github.com/sergot/perl6-encode
+HTTP-UserAgent          github.com/sergot/http-useragent
+Pod-To-HTML             github.com/perl6/Pod-To-HTML
+Pod-To-BigPage          github.com/perl6/perl6-pod-to-bigpage
+File-Find               github.com/tadzik/File-Find
+Debugger-UI-CommandLine github.com/jnthn/rakudo-debugger
+File-Which              github.com/azawawi/perl6-file-which
+Shell-Command           github.com/tadzik/Shell-Command
+LibraryMake             github.com/retupmoca/P6-LibraryMake
+IO-String               github.com/hoelzro/p6-io-string
+DateTime-Format         github.com/supernovus/perl6-datetime-format
+IO-Capture-Simple       github.com/sergot/IO-Capture-Simple
+Test-Util-ServerPort    github.com/jonathanstowe/Test-Util-ServerPort
+JSON-RPC                github.com/bbkr/jsonrpc
+Getopt-Long             github.com/Leont/getopt-long6
+TAP                     github.com/Raku/tap-harness6
+App-Prove6              github.com/Leont/app-prove6
+LibraryCheck            github.com/jonathanstowe/LibraryCheck
+Readline                github.com/fooist/perl6-readline        0.1.6

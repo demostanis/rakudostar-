@@ -1,0 +1,6 @@
+MoarVM = moarvm.org/releases/MoarVM-%s.tar.gz
+         moarvm.org/releases/MoarVM-%s.tar.gz.asc
+NQP    = rakudo.org/dl/nqp/nqp-%s.tar.gz
+         rakudo.org/dl/nqp/nqp-%s.tar.gz.asc
+Rakudo = rakudo.org/dl/rakudo/rakudo-%s.tar.gz
+         rakudo.org/dl/rakudo/rakudo-%s.tar.gz.asc
