@@ -1,8 +1,7 @@
 # Modules to install along with Rakudo. Their
 # dependencies must be included as they are not
 # resolved. A branch can be specified if it is not
-# the default. Supported protocols are 
-# and .
+# the default.
 # Syntax: <module name> <url> <branch?>
 
 zef                     github.com/ugexe/zef                    v0.11.5
